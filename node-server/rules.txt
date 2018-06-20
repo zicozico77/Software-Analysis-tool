@@ -1,0 +1,10 @@
+Method Name, checkstyle:com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck
+CyclomaticComplexity, checkstyle:com.puppycrawl.tools.checkstyle.checks.metrics.CyclomaticComplexityCheck
+Public types, methods and fields (API) should be documented with Javadoc, squid:UndocumentedApi
+"@Deprecated" code should not be used, squid:CallToDeprecatedMethod
+Missing Switch Default, checkstyle:com.puppycrawl.tools.checkstyle.checks.coding.MissingSwitchDefaultCheck
+"switch case" clauses should not have too many lines of code, squid:S1151
+Comments Indentation, checkstyle:com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck
+Equals Hash Code, checkstyle:com.puppycrawl.tools.checkstyle.checks.coding.EqualsHashCodeCheck
+String Literal Equality, checkstyle:com.puppycrawl.tools.checkstyle.checks.coding.StringLiteralEqualityCheck
+Line Length, checkstyle:com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck

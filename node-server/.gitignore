@@ -1,0 +1,5 @@
+/node_modules
+server.log
+/files
+/project_required_files/config.xml
+/junit

@@ -1,0 +1,25 @@
+1. download sonarqube(I'm using v6.5, the latest version is 7, you can give it a try)
+https://www.sonarqube.org/downloads/
+
+2. download mysql (I'm on 5.7.19, download the workbench if you don't like command line)
+
+3. create a new account in mysql (I use 'sonar' for both username and password)
+
+4. copy the sonar.properties file in this folder, replace the one in sonarqube/conf
+(https://docs.sonarqube.org/display/SONAR/Installing+the+Server)
+(That's the link if you wondering why)
+
+5. run the sonarqube Server
+(follow this link: https://docs.sonarqube.org/display/SONAR/Get+Started+in+Two+Minutes)
+
+6. hit http://localhost:9000/ that's it for setting up the sonarqube
+
+
+7. to actually test the code, you need to download sonar scanner
+https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner
+
+8. you need to create a 'sonar-project.property' file in the project folder that you want to testing
+
+9. run sonar-Scanner
+
+10. you should be able to see the result on SonarQube

@@ -1,0 +1,24 @@
+<template>
+  <div id="app">
+    <router-view></router-view>
+    <vue-snotify></vue-snotify>
+  </div>
+</template>
+
+<script lang="ts">
+import Vue from 'vue'
+export default Vue.extend({
+  name: 'app'
+})
+</script>
+
+<style>
+#app {
+  height: 100%;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+</style>

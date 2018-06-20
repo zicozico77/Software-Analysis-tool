@@ -1,0 +1,125 @@
+@import "~vue-snotify/styles/material.css";
+
+th {
+    background-color: #42135A;
+    color: white;
+    transition: all 500ms ease;
+}
+
+th:hover {
+    color: #42135A;
+    background-color: white;
+}
+
+table {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.p-button {
+    border: none;
+    background: #42135A;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+    min-width: 150px;
+}
+
+.p-button:hover {
+    background: rgba(0,0,0,0);
+    color: #42135A;
+    box-shadow: inset 0 0 0 3px #42135A;
+}
+
+.primary-button {
+    border: none;
+    background: #3778C5;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+}
+
+.primary-button:hover {
+    background: rgba(0,0,0,0);
+    color: #3778C5;
+    box-shadow: inset 0 0 0 3px #3778C5;
+}
+
+.secondary-button {
+    border: none;
+    background: #E65878;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+}
+
+.secondary-button:hover {
+    background: rgba(0,0,0,0);
+    color: #E65878;
+    box-shadow: inset 0 0 0 3px #E65878;
+}
+
+.right-align {
+    position: absolute;
+    right:0;
+}
+
+tr {
+    transition: all 500ms ease;
+}
+
+tbody tr:hover {
+    transform: scale(1.01) !important;
+}
+
+.wizard-title {
+    font-size: 1.6rem !important;
+    font-weight: 600 !important;
+    color: #42135A !important;
+}
+
+.snotify-success {
+    background-color: #42135A !important;
+}
+
+.snotify-success .snotifyToast__progressBar {
+    background-color: #4e1665 !important;
+
+}
+
+.snotify-success .snotifyToast__progressBar__percentage {
+    background-color: #8225a8 !important;
+}
+
+.snotify-success .snotifyToast__body {
+    color: #fff !important;
+}
+
+footer {
+    margin-top: 50px;
+    flex-shrink: 0;
+    width: 100%;
+    height: 10vh;
+    background-color: #42135A;
+    color: white;
+    text-align: right;
+}
+
+.ql-editor {
+    border: 1px solid lightgray;
+}
